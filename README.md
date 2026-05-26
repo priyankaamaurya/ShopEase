@@ -92,10 +92,10 @@ npm run dev
 ![Login](./Screenshots/login.png)
 
 ### 🔐 SignUp Page
-![Login](./Screenshots/signup.png)
+![SignUp](./Screenshots/signup.png)
 
 ## 🔮 Future Improvements
-
+ 
 - 🔗 Backend Integration (Spring Boot / Node.js)
 - 💳 Payment Gateway Integration
 - ❤️ Wishlist Feature
