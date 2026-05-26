@@ -79,12 +79,20 @@ npm run dev
 
 ## 📸 Screenshots
 
-(Add your UI screenshots here for better impact)
+### 🏠 Home Page
+![Home](./Screenshots/home.png)
 
-Example:
+### 🛍️ Products Page
+![Products](./Screenshots/products.png)
 
-![Home Page](./screenshots/home.png)
-![Cart Page](./screenshots/cart.png)
+### 🛒 Cart Page
+![Cart](./Screenshots/cart.png)
+
+### 🔐 Login Page
+![Login](./Screenshots/login.png)
+
+### 🔐 SignUp Page
+![Login](./Screenshots/signup.png)
 
 ## 🔮 Future Improvements
 
