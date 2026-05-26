@@ -82,17 +82,19 @@ npm run dev
 ### 🏠 Home Page
 ![Home](./Screenshots/home.png)
 
+### 🔐 Login Page
+![Login](./Screenshots/login.png)
+
+### 🔐 SignUp Page
+![SignUp](./Screenshots/signup.png)
+
 ### 🛍️ Products Page
 ![Products](./Screenshots/products.png)
 
 ### 🛒 Cart Page
 ![Cart](./Screenshots/cart.png)
 
-### 🔐 Login Page
-![Login](./Screenshots/login.png)
-
-### 🔐 SignUp Page
-![SignUp](./Screenshots/signup.png)
+---
 
 ## 🔮 Future Improvements
  
