@@ -58,12 +58,12 @@ src/
 
 1. Clone the repository
 ```
-git clone https://github.com/priyankamourya/Shopease.git
+git clone https://github.com/priyankamourya/ShopEase.git
 ```
 
 2. Navigate to project folder
 ```
-cd Shopease
+cd ShopEase
 ```
 
 3. Install dependencies
@@ -82,17 +82,19 @@ npm run dev
 ### 🏠 Home Page
 ![Home](./Screenshots/home.png)
 
+### 🔐 SignUp Page
+![SignUp](./Screenshots/signup.png)
+
+### 🔐 Login Page
+![Login](./Screenshots/login.png)
+
 ### 🛍️ Products Page
 ![Products](./Screenshots/products.png)
 
 ### 🛒 Cart Page
 ![Cart](./Screenshots/cart.png)
 
-### 🔐 Login Page
-![Login](./Screenshots/login.png)
-
-### 🔐 SignUp Page
-![SignUp](./Screenshots/signup.png)
+---
 
 ## 🔮 Future Improvements
  
