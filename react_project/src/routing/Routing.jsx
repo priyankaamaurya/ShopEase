@@ -15,27 +15,27 @@ const Routing = createBrowserRouter([
         element : <Navbar/>,
         children : [
             {
-                path: "/",
+                index: true,
                 element : <Home/>
             },
             {
-                path: "/allProducts",
+                path: "allProducts",
                 element : <AllProducts/>
             },
             {
-                path: "/cart",
+                path: "cart",
                 element : <Cart/>
             },
             {
-                path: "/editProfile",
+                path: "editProfile",
                 element : <EditProfile/>
             },
             {
-                path: "/login",
+                path: "login",
                 element : <Login/>
             },
             {
-                path: "/signUp",
+                path: "signUp",
                 element : <Signup/>
             },
         ]
