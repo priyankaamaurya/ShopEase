@@ -1,12 +1,12 @@
 import React from 'react'
 import { createBrowserRouter } from 'react-router-dom'
-import Navbar from '../navbar/Navbar'
-import Home from '../component/home/Home'
-import AllProducts from '../component/allProducts/AllProducts'
-import Cart from '../component/cart/Cart'
-import EditProfile from './../component/editProfile/EditProfile';
-import Login from './../component/login/Login';
-import Signup from './../component/signUp/Signup';
+import Navbar from '../navbar/Navbar.jsx'
+import Home from '../component/home/Home.jsx'
+import AllProducts from '../component/allProducts/AllProducts.jsx'
+import Cart from '../component/cart/Cart.jsx'
+import EditProfile from './../component/editProfile/EditProfile.jsx';
+import Login from './../component/login/Login.jsx';
+import Signup from './../component/signUp/SignUp.jsx';
 
 
 const Routing = createBrowserRouter([
