@@ -2,11 +2,11 @@ import React from 'react'
 import { createBrowserRouter } from 'react-router-dom'
 import Navbar from '../navbar/Navbar.jsx'
 import Home from '../component/home/Home.jsx'
-import AllProducts from '../component/allProducts/AllProducts.jsx'
+import AllProducts from '../component/allproducts/AllProducts.jsx'
 import Cart from '../component/cart/Cart.jsx'
 import EditProfile from './../component/editProfile/EditProfile.jsx';
 import Login from './../component/login/Login.jsx';
-import Signup from './../component/signUp/SignUp.jsx';
+import Signup from './../component/signup/SignUp.jsx';
 
 
 const Routing = createBrowserRouter([
@@ -19,7 +19,7 @@ const Routing = createBrowserRouter([
                 element : <Home/>
             },
             {
-                path: "allProducts",
+                path: "allproducts",
                 element : <AllProducts/>
             },
             {
@@ -35,8 +35,8 @@ const Routing = createBrowserRouter([
                 element : <Login/>
             },
             {
-                path: "signUp",
-                element : <Signup/>
+                path: "signup",
+                element : <SignUp/>
             },
         ]
     }
