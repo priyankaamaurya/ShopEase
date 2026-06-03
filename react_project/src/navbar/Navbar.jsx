@@ -79,7 +79,7 @@ const Navbar = () => {
             </li>
           </Fragment>
         ) : (
-          //! if user is not logged in then this fragment will display
+          //! if user is not logged in then this fragment will display 
           <Fragment>
             <li>
               <NavLink to="/login">Login</NavLink>
