@@ -13,7 +13,7 @@ const Cart = () => {
   useEffect(() => {
       // console.log(userid)
     async function getCartItems() {
-      let { data } = await axios.get(`http://localhost:3030/users/${userid}`);
+      let { data } = await axios.get(`https://shopease-backend-zpue.onrender.com/users/${userid}`);
       setUserDetails(data);
       setIsLoading(false);
     }
@@ -22,7 +22,7 @@ const Cart = () => {
   
   const handleRemoveFromCart = async (productid) => {
     try {
-      let { data } = await axios.get(`http://localhost:3030/users/${userid}`);
+      let { data } = await axios.get(`https://shopease-backend-zpue.onrender.com/users/${userid}`);
 
       let updatedCart = data.cart ?.map((item) => {
           if (item.id === productid) {
@@ -42,7 +42,7 @@ const Cart = () => {
         })
         .filter((item) => item !== null);
 
-      await axios.patch(`http://localhost:3030/users/${userid}`, {
+      await axios.patch(`https://shopease-backend-zpue.onrender.com/users/${userid}`, {
         cart: updatedCart,
       });
       setUserDetails({ ...data, cart: updatedCart });

@@ -21,7 +21,7 @@ const Allproducts = () => {
     console.log(cartData)
     console.log(userid)
 
-    let { data } = await axios.get(`http://localhost:3030/users/${userid}`)
+    let { data } = await axios.get(`https://shopease-backend-zpue.onrender.com/users/${userid}`)
     let updatedCart = data.cart ? [...data.cart] : []
 
     let existingPro = updatedCart.find((res) => res.id === cartData.id)
@@ -31,7 +31,7 @@ const Allproducts = () => {
     } else {
       updatedCart.push({ ...cartData, quantity: 1 })
     }
-    await axios.patch(`http://localhost:3030/users/${userid}`, { cart: updatedCart })
+    await axios.patch(`https://shopease-backend-zpue.onrender.com/users/${userid}`, { cart: updatedCart })
     alert("Product Added")
   }
   return (

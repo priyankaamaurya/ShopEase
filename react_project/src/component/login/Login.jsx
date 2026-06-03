@@ -44,7 +44,7 @@ const Login = () => {
 
     useEffect(() => {
          async function userData(){
-        let {data} = await axios.get("http://localhost:3030/users");
+        let {data} = await axios.get("https://shopease-backend-zpue.onrender.com/users");
         // console.log(data)
         setAllusers(data)
     }

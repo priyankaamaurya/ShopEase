@@ -21,7 +21,7 @@ const Navbar = () => {
   async function handleDeleteProfile() {
     let res = confirm("Do you wants to delete profile")
     if(res) {
-      let res = await axios.delete(`http://localhost:3030/users/${user_id}`)
+      let res = await axios.delete(`https://shopease-backend-zpue.onrender.com/users/${user_id}`)
       if (res) {
         alert("Profile Deleted")
         localStorage.removeItem("userid")

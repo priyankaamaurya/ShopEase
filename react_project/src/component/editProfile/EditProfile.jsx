@@ -14,7 +14,7 @@ const EditProfile = () => {
 
   useEffect(() => {
     async function getEditUser() {
-      let {data} = await axios.get(`http://localhost:3030/users/${userid}`);
+      let {data} = await axios.get(`https://shopease-backend-zpue.onrender.com/users/${userid}`);
       // console.log(data);
       setEditUser(data);
     }
@@ -32,7 +32,7 @@ const EditProfile = () => {
     let res = confirm("Submit ?")
    if(res){
      try{
-      await axios.patch(`http://localhost:3030/users/${userid}`, editUser)
+      await axios.patch(`https://shopease-backend-zpue.onrender.com/users/${userid}`, editUser)
       localStorage.removeItem("userid")
       naviagate("/")
     }catch (error){
